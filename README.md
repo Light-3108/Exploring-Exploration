@@ -29,7 +29,7 @@ Agent has to plan the path.
 
 <img width="818" height="605" alt="image" src="https://github.com/user-attachments/assets/40f5b62e-18e4-4b48-a7e9-3fd99fabd7a2" />
 
-It's able to visit around unique 16 state in the episode.
+It's able to visit around 16 unique states in the episode.
 This is expected because:
 
 1. Agent don't know what paths it took earlier
