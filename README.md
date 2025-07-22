@@ -12,7 +12,7 @@ Used Reinforce, reward = +x when reach the goal else -1.
 
 <img width="509" height="753" alt="image" src="https://github.com/user-attachments/assets/83a7c429-4e18-43f7-8015-d736dbacce12" />
 
-Worked well, find shortest path from each cell.
+Worked well, found shortest path from each cell.
 
 ---
 
