@@ -1,5 +1,5 @@
 
-# I will gradually make my policy intelligent until it matches the exploration policy of the paper.
+# I will gradually make my policy intelligent until it matches the exploration policy of the paper or even better, let's see.
 
 ## Version - 1
 
