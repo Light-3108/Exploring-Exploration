@@ -38,7 +38,41 @@ This is expected because:
 ---
 
 ## Version - 3
+Please read code for reward function, arc etc. because it's boring to write again and again. 
 
 Making the process Markov.
+state = obs[r][c][channel]
+obs[r][c][0] = 1 means agent is in the cell (r,c) else 0
+obs[r][c][1] = x means, how many times agent visit (r,c)
+
+First i tried using the same REINFORCE Algo, i used earlier, but it was not working at all. 
+I initially thought, renforce algo was the problem, as reinforce use monte carlo return, which have very high variance.
+so I tried using DQN. 
+But the real culprit was the my network Arch, more specifically CNN is used. 
+I decrease the (h,w) of my states, in each cnn layer, but this breaks the spatial relation
+So corrected to have same (6,6) after all CNN. 
+
+Agent score perfect score, visiting all 36 cell, in 36 timesteps. 
+<img width="844" height="757" alt="Screenshot 2025-07-25 035315" src="https://github.com/user-attachments/assets/f628d175-50c6-40f9-9b7d-b31b695aa271" />
+
 
 ---
+
+## Version - 1.5 (more fun version of the version_1)
+
+As my states are now MDP, i tried a little fun version of version - 1. 
+Goal changes at each step, and agent have to reach the state as fast as possible. 
+
+Perfect score. 
+
+
+---
+
+## Version - 4
+
+OK, my agent is becoming smarter and smarter, or is it? Or is it just memorizing?
+Here I will push the limit of the agent, 
+Then try implementing the real idea from the paper in version - 5 and onward. 
+let's gooooo. 
+
+
