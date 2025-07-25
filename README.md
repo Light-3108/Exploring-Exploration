@@ -61,7 +61,7 @@ Agent score perfect score, visiting all 36 cell, in 36 timesteps.
 ## Version - 1.5 (more fun version of the version_1)
 
 As my states are now MDP, i tried a little fun version of version - 1. 
-Goal changes at each step, and agent have to reach the state as fast as possible. 
+Goal changes at each episode, and agent have to reach the state as fast as possible. 
 
 Perfect score. 
 
